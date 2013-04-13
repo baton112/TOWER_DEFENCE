@@ -1,4 +1,4 @@
-﻿Kompilacja rozpoczęła się 2013-04-13 14:40:46.
+﻿Kompilacja rozpoczęła się 2013-04-13 16:41:25.
      1>Projekt „C:\Users\GRZECHU\Dropbox\GITHUB\TOWER_DEFENCE\TOWER_DEFENCE\TOWER_DEFENCE\TOWER_DEFENCE.vcxproj” w węźle 2 (elementy docelowe: Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\GRZECHU\Dropbox\GITHUB\TOWER_DEFENCE\TOWER_DEFENCE\TOWER_DEFENCE\SFML\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -12,4 +12,4 @@
 
 Kompilacja powiodła się.
 
-Czas, który upłynął: 00:00:01.28
+Czas, który upłynął: 00:00:02.36
