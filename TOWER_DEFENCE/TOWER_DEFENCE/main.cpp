@@ -8,6 +8,7 @@
 int main()
 {
 	map game_map;
+	game_map.load_map("level/1.lvl");
     sf::RenderWindow oknoAplikacji( sf::VideoMode( 800, 600, 32 ), "TOWER DEFENCE" ); // glowne okno aplikacji 
     while( oknoAplikacji.isOpen() )
     {
@@ -25,15 +26,15 @@ int main()
 				//obs³uga zajœcia zdarzenia wciœniêcia klawisza ESC
 				oknoAplikacji.close(); //np. zamkniêcie aplikacji
 			}
-
-
-
         }
 
+		// tu wszyto co ma sie wyswietlac 
 			
 		
 		
 		oknoAplikacji.display(); // wyswietlenie okna 
+
+
     }
     return 0;
 }
