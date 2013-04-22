@@ -30,7 +30,6 @@ public:
 private:
 	std::string map_tab[MAP_SZEROKOSC][MAP_WYSOKOSC]; // x, y -- szerokosc , wysokosc 
 	sf::Texture bitmapa;
-	sf::Texture costam;
 
 
 };

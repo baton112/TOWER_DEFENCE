@@ -6,6 +6,9 @@
 #include "map.h"
 #include "game.h"
 #include "menu.h"
+#include "pozycja.h"
+#include "potworek.h"
+#include
 
 
 int main()
