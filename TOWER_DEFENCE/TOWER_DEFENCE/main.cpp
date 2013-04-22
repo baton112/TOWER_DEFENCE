@@ -8,7 +8,8 @@
 #include "menu.h"
 #include "pozycja.h"
 #include "potworek.h"
-#include
+#include "wierza.h"
+#include "potworki\zolnierz.h"
 
 
 int main()
@@ -16,6 +17,12 @@ int main()
 	map game_map;
 	menu game_menu;
 	game game_gra;
+
+	//// tu na probe tworzymy potworka 
+	potworek test;
+	test.zaladuj_teksture("bmp/star.bmp");
+	test.zapamietaj_pozycje(0,4);
+
 	int a = game_map.load_map("level/1.txt"); // ladowanie poziomu
 	game_menu.stan_gry=ekran_startrowy;
     sf::RenderWindow oknoAplikacji( sf::VideoMode( 1280, 720, 32 ), "TOWER DEFENCE" ); // glowne okno aplikacji 
@@ -53,6 +60,11 @@ int main()
 			break;
 		case gra:
 			game_gra.start(&oknoAplikacji, &game_map);
+
+
+			//testowy potworek
+			test.przesun(&game_map);
+			test.rysuj_pozycje(&oknoAplikacji);
 
 			break;
 		case pauza:

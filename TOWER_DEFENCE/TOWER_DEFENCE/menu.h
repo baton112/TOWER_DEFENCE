@@ -5,7 +5,7 @@ enum stan_gry_enum
 	ekran_startrowy,
 	gra,
 	pauza
-};
+} ;
 
 class menu
 {

@@ -27,6 +27,7 @@ public:
 	bool load_map(std::string poziom_sciezka);
 	void rysuj_plansze(sf::RenderWindow *oknoAplikacji);
 	bool load_texture();
+	bool czy_mozna_ruszyc_na_pozycje(int x, int y);
 private:
 	std::string map_tab[MAP_SZEROKOSC][MAP_WYSOKOSC]; // x, y -- szerokosc , wysokosc 
 	sf::Texture bitmapa;

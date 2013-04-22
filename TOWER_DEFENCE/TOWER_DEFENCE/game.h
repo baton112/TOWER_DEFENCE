@@ -10,6 +10,8 @@ public:
 	void start(sf::RenderWindow *oknoAplikacji, map *game_map);
 	game(void);
 	~game(void);
-	
+private:
+	void przesun_potworki();
+	void rysuj_potworki();
 };
 

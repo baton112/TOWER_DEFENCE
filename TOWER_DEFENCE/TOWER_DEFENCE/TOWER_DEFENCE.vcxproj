@@ -74,11 +74,22 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="map.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="potworek.cpp" />
+    <ClCompile Include="potworki\zolnierz.cpp" />
+    <ClCompile Include="pozycja.cpp" />
+    <ClCompile Include="wierza.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="menu.h" />
+    <ClInclude Include="potworek.h" />
+    <ClInclude Include="potworki\zolnierz.h" />
+    <ClInclude Include="pozycja.h" />
+    <ClInclude Include="wierza.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

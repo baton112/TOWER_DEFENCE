@@ -4,9 +4,10 @@ class zolnierz :
 	public potworek
 {
 public:
-	void atakuj();
-	void przesun();
+	//void atakuj();
+	//void przesun();
 	zolnierz(void);
 	~zolnierz(void);
+
 };
 

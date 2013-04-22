@@ -17,6 +17,5 @@ void game::start(sf::RenderWindow *oknoAplikacji, map *game_map)
 {
 	game_map->load_texture();
 	game_map->rysuj_plansze(oknoAplikacji);
-	//game_map->bitmapa.setPosition( 10, 40 ); 
-	//oknoAplikacji->draw( game_map->bitmapa );
+
 }

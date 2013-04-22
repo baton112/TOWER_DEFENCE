@@ -89,16 +89,18 @@ void map::rysuj_plansze(sf::RenderWindow *oknoAplikacji)
 			kwadrat.setTextureRect(sf::IntRect(x*PIX_UNIT,y*PIX_UNIT,PIX_UNIT,PIX_UNIT));
 			kwadrat.setPosition(j*PIX_UNIT+MAP_X_OFFSET,i*PIX_UNIT+MAP_Y_OFFSET);
 			oknoAplikacji->draw(kwadrat);
-			/*
-			obrazek.setTextureRect(IntRect(kolumna*bokpola,rzad*bokpola,bokpola,bokpola));
-			obrazek.setPosition(x,y);
-			okno.Okno->draw(obrazek);*/
-			
 		}
-
 	}
-
-
 }
 
-
+// zwraca true jesli pozycja jest droga
+bool map::czy_mozna_ruszyc_na_pozycje(int x, int y) 
+{
+	if (map_tab[x][y]=="-" 
+		|| map_tab[x][y]=="|" 
+		|| map_tab[x][y]=="1" 
+		|| map_tab[x][y]=="2"
+		|| map_tab[x][y]=="3"
+		|| map_tab[x][y]=="4") return true;
+	else return false;
+}
