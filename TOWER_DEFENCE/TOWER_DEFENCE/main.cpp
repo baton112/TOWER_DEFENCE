@@ -13,6 +13,8 @@ int main()
 	map game_map;
 	menu game_menu;
 	game game_gra;
+
+	int a = game_map.load_map("level/1.txt"); // ladowanie poziomu
 	game_menu.stan_gry=ekran_startrowy;
     sf::RenderWindow oknoAplikacji( sf::VideoMode( 1280, 720, 32 ), "TOWER DEFENCE" ); // glowne okno aplikacji 
 	oknoAplikacji.setVerticalSyncEnabled(true);
